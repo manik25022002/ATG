@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+
+
+
+
+.com-sci-img {
+    width: 100vw;
+}
+
+.main-bg-photo {
+    position: relative;
+
+}
+
+.main-bg-photo-text {
+
+    position: absolute;
+    bottom: 74px;
+    left: 200px;
+    color: white;
+}
+
+.cards-all {
+    width: 50vw;
+    margin-top: 50px;
+    /* margin-left: 200px; */
+}
+
+.pic-author-big,
+.side-pic-author {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pic-author,
+.side-pic-author {
+    display: flex;
+    flex-direction: row;
+}
+
+.kviews-para {
+    padding: 0 30px 0 30px;
+
+}
+
+.pic-author-text {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.dots {
+    float: right;
+
+}
+
+/* .card-make {
+    height: 50px;
+} */
+
+.card-make-3 {
+    position: relative;
+}
+
+.box-edit {
+    position: absolute;
+    top: 346px;
+    right: 16px;
+    background-color: white;
+    /* border: 1px solid grey; */
+    width: 20%;
+    float: right;
+    padding: 2px;
+    height: 105px;
+    /* box-shadow: 1px 1px 10px 10px rgb(186, 181, 181); */
+    box-shadow:  1px 2px 8px 4px  rgb(186, 181, 181);
+    /* display: none; */
+}
